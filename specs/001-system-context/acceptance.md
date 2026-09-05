@@ -987,10 +987,10 @@ Codex receives an implementation task
 the task conflicts with an approved SPEC
 
 **THEN**
-Codex must stop or implement according to the approved SPEC
+Codex must stop and report the conflict before implementation
 
 **AND**
-must not silently override it.
+must not silently override either the approved SPEC or the requested task.
 
 ---
 

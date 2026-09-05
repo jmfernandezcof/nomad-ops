@@ -38,15 +38,26 @@ The platform must prefer an explicit limitation over fabricated continuity.
 
 ---
 
-## 3. Primary Execution States
+## 3. Execution Lifecycle States
 
-NOMAD Ops uses three primary execution states:
+NOMAD Ops uses four execution lifecycle states:
 
+- `NOT_STARTED`
 - `SUCCESS`
 - `FAILED`
 - `UNKNOWN`
 
-These states describe what the platform knows about the result of an operation.
+`NOT_STARTED` means target execution has not begun.
+
+`SUCCESS`, `FAILED` and `UNKNOWN` describe what the platform knows after processing or target execution begins.
+
+Authorization decisions are a separate state machine:
+
+- `ALLOW`
+- `DENY`
+- `REQUIRE_APPROVAL`
+
+An authorization decision of `DENY` leaves execution in `NOT_STARTED`. It is not a failed execution because execution never began.
 
 ---
 
@@ -77,8 +88,6 @@ Success must not be inferred solely from:
 
 Examples:
 
-- authentication rejected;
-- authorization denied;
 - API returned a known error;
 - workflow execution failed;
 - response failed schema validation;
@@ -441,12 +450,16 @@ Contract failures must be observable because they may indicate version drift.
 
 Security failures must not be hidden or automatically bypassed.
 
-Possible outcomes include:
+Relevant pre-execution results may include:
 
-- `DENIED`
+- authorization decision `DENY`;
 - authentication required;
 - approval required;
 - insufficient scope.
+
+When authorization returns `DENY`, execution remains `NOT_STARTED`.
+
+A security refusal must not be recorded as a `FAILED` target execution when target execution never began.
 
 The system must never respond to authorization failure by attempting another path that grants broader access unless explicitly designed and authorized.
 
