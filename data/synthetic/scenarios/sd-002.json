@@ -1,0 +1,22 @@
+{
+  "id": "SD-002",
+  "name": "IT incident investigation",
+  "records": {
+    "alerts": [
+      "ALT-003"
+    ],
+    "assets": [
+      "AST-003"
+    ],
+    "documents": [
+      "DOC-003"
+    ],
+    "incidents": [
+      "INC-001",
+      "INC-002"
+    ],
+    "users": [
+      "USR-003"
+    ]
+  }
+}

@@ -1,0 +1,1084 @@
+{
+  "incidents": [
+    {
+      "asset_id": "AST-003",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-001",
+      "opened_at": "2026-09-01T08:00:00Z",
+      "previous_incident_id": "INC-002",
+      "related_alert_ids": [
+        "ALT-003"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-001",
+      "site_id": "SITE-CR",
+      "status": "open",
+      "title": "Packaging line telemetry interruption — Ciudad Real"
+    },
+    {
+      "asset_id": "AST-002",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-002",
+      "opened_at": "2026-09-01T11:00:00Z",
+      "previous_incident_id": "INC-001",
+      "related_alert_ids": [
+        "ALT-002"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-007",
+      "site_id": "SITE-TOL",
+      "status": "investigating",
+      "title": "Synthetic operational incident 002"
+    },
+    {
+      "asset_id": "AST-003",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-003",
+      "opened_at": "2026-09-01T14:00:00Z",
+      "previous_incident_id": "INC-002",
+      "related_alert_ids": [
+        "ALT-003"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-008",
+      "site_id": "SITE-CR",
+      "status": "resolved",
+      "title": "Synthetic operational incident 003"
+    },
+    {
+      "asset_id": "AST-004",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-004",
+      "opened_at": "2026-09-01T17:00:00Z",
+      "previous_incident_id": "INC-003",
+      "related_alert_ids": [
+        "ALT-004"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-009",
+      "site_id": "SITE-VLC",
+      "status": "open",
+      "title": "Synthetic operational incident 004"
+    },
+    {
+      "asset_id": "AST-005",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-005",
+      "opened_at": "2026-09-01T20:00:00Z",
+      "previous_incident_id": "INC-004",
+      "related_alert_ids": [
+        "ALT-005"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-010",
+      "site_id": "SITE-MAD",
+      "status": "investigating",
+      "title": "Synthetic operational incident 005"
+    },
+    {
+      "asset_id": "AST-006",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-006",
+      "opened_at": "2026-09-01T23:00:00Z",
+      "previous_incident_id": "INC-005",
+      "related_alert_ids": [
+        "ALT-006"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-011",
+      "site_id": "SITE-TOL",
+      "status": "resolved",
+      "title": "Synthetic operational incident 006"
+    },
+    {
+      "asset_id": "AST-007",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-007",
+      "opened_at": "2026-09-02T02:00:00Z",
+      "previous_incident_id": "INC-006",
+      "related_alert_ids": [
+        "ALT-007"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-012",
+      "site_id": "SITE-CR",
+      "status": "open",
+      "title": "Synthetic operational incident 007"
+    },
+    {
+      "asset_id": "AST-008",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-008",
+      "opened_at": "2026-09-02T05:00:00Z",
+      "previous_incident_id": "INC-007",
+      "related_alert_ids": [
+        "ALT-008"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-013",
+      "site_id": "SITE-VLC",
+      "status": "investigating",
+      "title": "Synthetic operational incident 008"
+    },
+    {
+      "asset_id": "AST-009",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-009",
+      "opened_at": "2026-09-02T08:00:00Z",
+      "previous_incident_id": "INC-008",
+      "related_alert_ids": [
+        "ALT-009"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-014",
+      "site_id": "SITE-MAD",
+      "status": "resolved",
+      "title": "Synthetic operational incident 009"
+    },
+    {
+      "asset_id": "AST-010",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-010",
+      "opened_at": "2026-09-02T11:00:00Z",
+      "previous_incident_id": "INC-009",
+      "related_alert_ids": [
+        "ALT-010"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-015",
+      "site_id": "SITE-TOL",
+      "status": "open",
+      "title": "Synthetic operational incident 010"
+    },
+    {
+      "asset_id": "AST-011",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-011",
+      "opened_at": "2026-09-02T14:00:00Z",
+      "previous_incident_id": "INC-010",
+      "related_alert_ids": [
+        "ALT-011"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-016",
+      "site_id": "SITE-CR",
+      "status": "investigating",
+      "title": "Synthetic operational incident 011"
+    },
+    {
+      "asset_id": "AST-012",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-012",
+      "opened_at": "2026-09-02T17:00:00Z",
+      "previous_incident_id": "INC-011",
+      "related_alert_ids": [
+        "ALT-012"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-017",
+      "site_id": "SITE-VLC",
+      "status": "resolved",
+      "title": "Synthetic operational incident 012"
+    },
+    {
+      "asset_id": "AST-013",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-013",
+      "opened_at": "2026-09-02T20:00:00Z",
+      "previous_incident_id": "INC-012",
+      "related_alert_ids": [
+        "ALT-013"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-018",
+      "site_id": "SITE-MAD",
+      "status": "open",
+      "title": "Synthetic operational incident 013"
+    },
+    {
+      "asset_id": "AST-014",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-014",
+      "opened_at": "2026-09-02T23:00:00Z",
+      "previous_incident_id": "INC-013",
+      "related_alert_ids": [
+        "ALT-014"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-019",
+      "site_id": "SITE-TOL",
+      "status": "investigating",
+      "title": "Synthetic operational incident 014"
+    },
+    {
+      "asset_id": "AST-015",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-015",
+      "opened_at": "2026-09-03T02:00:00Z",
+      "previous_incident_id": "INC-014",
+      "related_alert_ids": [
+        "ALT-015"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-020",
+      "site_id": "SITE-CR",
+      "status": "resolved",
+      "title": "Synthetic operational incident 015"
+    },
+    {
+      "asset_id": "AST-016",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-016",
+      "opened_at": "2026-09-03T05:00:00Z",
+      "previous_incident_id": "INC-015",
+      "related_alert_ids": [
+        "ALT-016"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-021",
+      "site_id": "SITE-VLC",
+      "status": "open",
+      "title": "Synthetic operational incident 016"
+    },
+    {
+      "asset_id": "AST-017",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-017",
+      "opened_at": "2026-09-03T08:00:00Z",
+      "previous_incident_id": "INC-016",
+      "related_alert_ids": [
+        "ALT-017"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-022",
+      "site_id": "SITE-MAD",
+      "status": "investigating",
+      "title": "Synthetic operational incident 017"
+    },
+    {
+      "asset_id": "AST-018",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-018",
+      "opened_at": "2026-09-03T11:00:00Z",
+      "previous_incident_id": "INC-017",
+      "related_alert_ids": [
+        "ALT-018"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-023",
+      "site_id": "SITE-TOL",
+      "status": "resolved",
+      "title": "Synthetic operational incident 018"
+    },
+    {
+      "asset_id": "AST-019",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-019",
+      "opened_at": "2026-09-03T14:00:00Z",
+      "previous_incident_id": "INC-018",
+      "related_alert_ids": [
+        "ALT-019"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-024",
+      "site_id": "SITE-CR",
+      "status": "open",
+      "title": "Synthetic operational incident 019"
+    },
+    {
+      "asset_id": "AST-020",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-020",
+      "opened_at": "2026-09-03T17:00:00Z",
+      "previous_incident_id": "INC-019",
+      "related_alert_ids": [
+        "ALT-020"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-025",
+      "site_id": "SITE-VLC",
+      "status": "investigating",
+      "title": "Synthetic operational incident 020"
+    },
+    {
+      "asset_id": "AST-021",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-021",
+      "opened_at": "2026-09-03T20:00:00Z",
+      "previous_incident_id": "INC-020",
+      "related_alert_ids": [
+        "ALT-021"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-026",
+      "site_id": "SITE-MAD",
+      "status": "resolved",
+      "title": "Synthetic operational incident 021"
+    },
+    {
+      "asset_id": "AST-022",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-022",
+      "opened_at": "2026-09-03T23:00:00Z",
+      "previous_incident_id": "INC-021",
+      "related_alert_ids": [
+        "ALT-022"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-027",
+      "site_id": "SITE-TOL",
+      "status": "open",
+      "title": "Synthetic operational incident 022"
+    },
+    {
+      "asset_id": "AST-023",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-023",
+      "opened_at": "2026-09-04T02:00:00Z",
+      "previous_incident_id": "INC-022",
+      "related_alert_ids": [
+        "ALT-023"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-028",
+      "site_id": "SITE-CR",
+      "status": "investigating",
+      "title": "Synthetic operational incident 023"
+    },
+    {
+      "asset_id": "AST-024",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-024",
+      "opened_at": "2026-09-04T05:00:00Z",
+      "previous_incident_id": "INC-023",
+      "related_alert_ids": [
+        "ALT-024"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-029",
+      "site_id": "SITE-VLC",
+      "status": "resolved",
+      "title": "Synthetic operational incident 024"
+    },
+    {
+      "asset_id": "AST-001",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-025",
+      "opened_at": "2026-09-04T08:00:00Z",
+      "previous_incident_id": "INC-024",
+      "related_alert_ids": [
+        "ALT-025"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-030",
+      "site_id": "SITE-MAD",
+      "status": "open",
+      "title": "Synthetic operational incident 025"
+    },
+    {
+      "asset_id": "AST-002",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-026",
+      "opened_at": "2026-09-04T11:00:00Z",
+      "previous_incident_id": "INC-025",
+      "related_alert_ids": [
+        "ALT-026"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-031",
+      "site_id": "SITE-TOL",
+      "status": "investigating",
+      "title": "Synthetic operational incident 026"
+    },
+    {
+      "asset_id": "AST-003",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-027",
+      "opened_at": "2026-09-04T14:00:00Z",
+      "previous_incident_id": "INC-026",
+      "related_alert_ids": [
+        "ALT-027"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-032",
+      "site_id": "SITE-CR",
+      "status": "resolved",
+      "title": "Synthetic operational incident 027"
+    },
+    {
+      "asset_id": "AST-004",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-028",
+      "opened_at": "2026-09-04T17:00:00Z",
+      "previous_incident_id": "INC-027",
+      "related_alert_ids": [
+        "ALT-028"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-033",
+      "site_id": "SITE-VLC",
+      "status": "open",
+      "title": "Synthetic operational incident 028"
+    },
+    {
+      "asset_id": "AST-005",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-029",
+      "opened_at": "2026-09-04T20:00:00Z",
+      "previous_incident_id": "INC-028",
+      "related_alert_ids": [
+        "ALT-029"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-034",
+      "site_id": "SITE-MAD",
+      "status": "investigating",
+      "title": "Synthetic operational incident 029"
+    },
+    {
+      "asset_id": "AST-006",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-030",
+      "opened_at": "2026-09-04T23:00:00Z",
+      "previous_incident_id": "INC-029",
+      "related_alert_ids": [
+        "ALT-030"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-035",
+      "site_id": "SITE-TOL",
+      "status": "resolved",
+      "title": "Synthetic operational incident 030"
+    },
+    {
+      "asset_id": "AST-007",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-031",
+      "opened_at": "2026-09-05T02:00:00Z",
+      "previous_incident_id": "INC-030",
+      "related_alert_ids": [
+        "ALT-031"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-036",
+      "site_id": "SITE-CR",
+      "status": "open",
+      "title": "Synthetic operational incident 031"
+    },
+    {
+      "asset_id": "AST-008",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-032",
+      "opened_at": "2026-09-05T05:00:00Z",
+      "previous_incident_id": "INC-031",
+      "related_alert_ids": [
+        "ALT-032"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-037",
+      "site_id": "SITE-VLC",
+      "status": "investigating",
+      "title": "Synthetic operational incident 032"
+    },
+    {
+      "asset_id": "AST-009",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-033",
+      "opened_at": "2026-09-05T08:00:00Z",
+      "previous_incident_id": "INC-032",
+      "related_alert_ids": [
+        "ALT-033"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-038",
+      "site_id": "SITE-MAD",
+      "status": "resolved",
+      "title": "Synthetic operational incident 033"
+    },
+    {
+      "asset_id": "AST-010",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-034",
+      "opened_at": "2026-09-05T11:00:00Z",
+      "previous_incident_id": "INC-033",
+      "related_alert_ids": [
+        "ALT-034"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-039",
+      "site_id": "SITE-TOL",
+      "status": "open",
+      "title": "Synthetic operational incident 034"
+    },
+    {
+      "asset_id": "AST-011",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-035",
+      "opened_at": "2026-09-05T14:00:00Z",
+      "previous_incident_id": "INC-034",
+      "related_alert_ids": [
+        "ALT-035"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-040",
+      "site_id": "SITE-CR",
+      "status": "investigating",
+      "title": "Synthetic operational incident 035"
+    },
+    {
+      "asset_id": "AST-012",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-036",
+      "opened_at": "2026-09-05T17:00:00Z",
+      "previous_incident_id": "INC-035",
+      "related_alert_ids": [
+        "ALT-036"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-041",
+      "site_id": "SITE-VLC",
+      "status": "resolved",
+      "title": "Synthetic operational incident 036"
+    },
+    {
+      "asset_id": "AST-013",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-037",
+      "opened_at": "2026-09-05T20:00:00Z",
+      "previous_incident_id": "INC-036",
+      "related_alert_ids": [
+        "ALT-037"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-042",
+      "site_id": "SITE-MAD",
+      "status": "open",
+      "title": "Synthetic operational incident 037"
+    },
+    {
+      "asset_id": "AST-014",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-038",
+      "opened_at": "2026-09-05T23:00:00Z",
+      "previous_incident_id": "INC-037",
+      "related_alert_ids": [
+        "ALT-038"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-043",
+      "site_id": "SITE-TOL",
+      "status": "investigating",
+      "title": "Synthetic operational incident 038"
+    },
+    {
+      "asset_id": "AST-015",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-039",
+      "opened_at": "2026-09-06T02:00:00Z",
+      "previous_incident_id": "INC-038",
+      "related_alert_ids": [
+        "ALT-039"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-044",
+      "site_id": "SITE-CR",
+      "status": "resolved",
+      "title": "Synthetic operational incident 039"
+    },
+    {
+      "asset_id": "AST-016",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-040",
+      "opened_at": "2026-09-06T05:00:00Z",
+      "previous_incident_id": "INC-039",
+      "related_alert_ids": [
+        "ALT-040"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-045",
+      "site_id": "SITE-VLC",
+      "status": "open",
+      "title": "Synthetic operational incident 040"
+    },
+    {
+      "asset_id": "AST-017",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-041",
+      "opened_at": "2026-09-06T08:00:00Z",
+      "previous_incident_id": "INC-040",
+      "related_alert_ids": [
+        "ALT-041"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-046",
+      "site_id": "SITE-MAD",
+      "status": "investigating",
+      "title": "Synthetic operational incident 041"
+    },
+    {
+      "asset_id": "AST-018",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-042",
+      "opened_at": "2026-09-06T11:00:00Z",
+      "previous_incident_id": "INC-041",
+      "related_alert_ids": [
+        "ALT-042"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-047",
+      "site_id": "SITE-TOL",
+      "status": "resolved",
+      "title": "Synthetic operational incident 042"
+    },
+    {
+      "asset_id": "AST-019",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-043",
+      "opened_at": "2026-09-06T14:00:00Z",
+      "previous_incident_id": "INC-042",
+      "related_alert_ids": [
+        "ALT-043"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-048",
+      "site_id": "SITE-CR",
+      "status": "open",
+      "title": "Synthetic operational incident 043"
+    },
+    {
+      "asset_id": "AST-020",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-044",
+      "opened_at": "2026-09-06T17:00:00Z",
+      "previous_incident_id": "INC-043",
+      "related_alert_ids": [
+        "ALT-044"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-049",
+      "site_id": "SITE-VLC",
+      "status": "investigating",
+      "title": "Synthetic operational incident 044"
+    },
+    {
+      "asset_id": "AST-021",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-045",
+      "opened_at": "2026-09-06T20:00:00Z",
+      "previous_incident_id": "INC-044",
+      "related_alert_ids": [
+        "ALT-045"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-050",
+      "site_id": "SITE-MAD",
+      "status": "resolved",
+      "title": "Synthetic operational incident 045"
+    },
+    {
+      "asset_id": "AST-022",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-046",
+      "opened_at": "2026-09-06T23:00:00Z",
+      "previous_incident_id": "INC-045",
+      "related_alert_ids": [
+        "ALT-046"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-051",
+      "site_id": "SITE-TOL",
+      "status": "open",
+      "title": "Synthetic operational incident 046"
+    },
+    {
+      "asset_id": "AST-023",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-047",
+      "opened_at": "2026-09-07T02:00:00Z",
+      "previous_incident_id": "INC-046",
+      "related_alert_ids": [
+        "ALT-047"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-052",
+      "site_id": "SITE-CR",
+      "status": "investigating",
+      "title": "Synthetic operational incident 047"
+    },
+    {
+      "asset_id": "AST-024",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-048",
+      "opened_at": "2026-09-07T05:00:00Z",
+      "previous_incident_id": "INC-047",
+      "related_alert_ids": [
+        "ALT-048"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-053",
+      "site_id": "SITE-VLC",
+      "status": "resolved",
+      "title": "Synthetic operational incident 048"
+    },
+    {
+      "asset_id": "AST-001",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-049",
+      "opened_at": "2026-09-07T08:00:00Z",
+      "previous_incident_id": "INC-048",
+      "related_alert_ids": [
+        "ALT-049"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-054",
+      "site_id": "SITE-MAD",
+      "status": "open",
+      "title": "Synthetic operational incident 049"
+    },
+    {
+      "asset_id": "AST-002",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-050",
+      "opened_at": "2026-09-07T11:00:00Z",
+      "previous_incident_id": "INC-049",
+      "related_alert_ids": [
+        "ALT-050"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-055",
+      "site_id": "SITE-TOL",
+      "status": "investigating",
+      "title": "Synthetic operational incident 050"
+    },
+    {
+      "asset_id": "AST-003",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-051",
+      "opened_at": "2026-09-07T14:00:00Z",
+      "previous_incident_id": "INC-050",
+      "related_alert_ids": [
+        "ALT-051"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-056",
+      "site_id": "SITE-CR",
+      "status": "resolved",
+      "title": "Synthetic operational incident 051"
+    },
+    {
+      "asset_id": "AST-004",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-052",
+      "opened_at": "2026-09-07T17:00:00Z",
+      "previous_incident_id": "INC-051",
+      "related_alert_ids": [
+        "ALT-052"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-057",
+      "site_id": "SITE-VLC",
+      "status": "open",
+      "title": "Synthetic operational incident 052"
+    },
+    {
+      "asset_id": "AST-005",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-053",
+      "opened_at": "2026-09-07T20:00:00Z",
+      "previous_incident_id": "INC-052",
+      "related_alert_ids": [
+        "ALT-053"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-058",
+      "site_id": "SITE-MAD",
+      "status": "investigating",
+      "title": "Synthetic operational incident 053"
+    },
+    {
+      "asset_id": "AST-006",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-054",
+      "opened_at": "2026-09-07T23:00:00Z",
+      "previous_incident_id": "INC-053",
+      "related_alert_ids": [
+        "ALT-054"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-059",
+      "site_id": "SITE-TOL",
+      "status": "resolved",
+      "title": "Synthetic operational incident 054"
+    },
+    {
+      "asset_id": "AST-007",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-055",
+      "opened_at": "2026-09-08T02:00:00Z",
+      "previous_incident_id": "INC-054",
+      "related_alert_ids": [
+        "ALT-055"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-060",
+      "site_id": "SITE-CR",
+      "status": "open",
+      "title": "Synthetic operational incident 055"
+    },
+    {
+      "asset_id": "AST-008",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-056",
+      "opened_at": "2026-09-08T05:00:00Z",
+      "previous_incident_id": "INC-055",
+      "related_alert_ids": [
+        "ALT-056"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-001",
+      "site_id": "SITE-VLC",
+      "status": "investigating",
+      "title": "Synthetic operational incident 056"
+    },
+    {
+      "asset_id": "AST-009",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-057",
+      "opened_at": "2026-09-08T08:00:00Z",
+      "previous_incident_id": "INC-056",
+      "related_alert_ids": [
+        "ALT-057"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-002",
+      "site_id": "SITE-MAD",
+      "status": "resolved",
+      "title": "Synthetic operational incident 057"
+    },
+    {
+      "asset_id": "AST-010",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-058",
+      "opened_at": "2026-09-08T11:00:00Z",
+      "previous_incident_id": "INC-057",
+      "related_alert_ids": [
+        "ALT-058"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-003",
+      "site_id": "SITE-TOL",
+      "status": "open",
+      "title": "Synthetic operational incident 058"
+    },
+    {
+      "asset_id": "AST-011",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-059",
+      "opened_at": "2026-09-08T14:00:00Z",
+      "previous_incident_id": "INC-058",
+      "related_alert_ids": [
+        "ALT-059"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-004",
+      "site_id": "SITE-CR",
+      "status": "investigating",
+      "title": "Synthetic operational incident 059"
+    },
+    {
+      "asset_id": "AST-012",
+      "assignee_id": "USR-003",
+      "classification": "CONFIDENTIAL",
+      "id": "INC-060",
+      "opened_at": "2026-09-08T17:00:00Z",
+      "previous_incident_id": "INC-059",
+      "related_alert_ids": [
+        "ALT-060"
+      ],
+      "related_document_ids": [
+        "DOC-003"
+      ],
+      "requester_id": "USR-005",
+      "site_id": "SITE-VLC",
+      "status": "resolved",
+      "title": "Synthetic operational incident 060"
+    }
+  ]
+}

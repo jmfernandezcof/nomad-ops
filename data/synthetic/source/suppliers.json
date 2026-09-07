@@ -1,0 +1,98 @@
+[
+  {
+    "category": "packaging",
+    "classification": "CONFIDENTIAL",
+    "id": "SUP-001",
+    "name": "Proveedor Ficticio 01",
+    "status": "active",
+    "synthetic": true
+  },
+  {
+    "category": "raw_materials",
+    "classification": "CONFIDENTIAL",
+    "id": "SUP-002",
+    "name": "Proveedor Ficticio 02",
+    "status": "active",
+    "synthetic": true
+  },
+  {
+    "category": "maintenance",
+    "classification": "CONFIDENTIAL",
+    "id": "SUP-003",
+    "name": "Proveedor Ficticio 03",
+    "status": "active",
+    "synthetic": true
+  },
+  {
+    "category": "logistics",
+    "classification": "CONFIDENTIAL",
+    "id": "SUP-004",
+    "name": "Proveedor Ficticio 04",
+    "status": "active",
+    "synthetic": true
+  },
+  {
+    "category": "packaging",
+    "classification": "CONFIDENTIAL",
+    "id": "SUP-005",
+    "name": "Proveedor Ficticio 05",
+    "status": "active",
+    "synthetic": true
+  },
+  {
+    "category": "raw_materials",
+    "classification": "CONFIDENTIAL",
+    "id": "SUP-006",
+    "name": "Proveedor Ficticio 06",
+    "status": "active",
+    "synthetic": true
+  },
+  {
+    "category": "maintenance",
+    "classification": "CONFIDENTIAL",
+    "id": "SUP-007",
+    "name": "Proveedor Ficticio 07",
+    "status": "active",
+    "synthetic": true
+  },
+  {
+    "category": "logistics",
+    "classification": "CONFIDENTIAL",
+    "id": "SUP-008",
+    "name": "Proveedor Ficticio 08",
+    "status": "active",
+    "synthetic": true
+  },
+  {
+    "category": "packaging",
+    "classification": "CONFIDENTIAL",
+    "id": "SUP-009",
+    "name": "Proveedor Ficticio 09",
+    "status": "active",
+    "synthetic": true
+  },
+  {
+    "category": "raw_materials",
+    "classification": "CONFIDENTIAL",
+    "id": "SUP-010",
+    "name": "Proveedor Ficticio 10",
+    "status": "active",
+    "synthetic": true
+  },
+  {
+    "category": "maintenance",
+    "classification": "CONFIDENTIAL",
+    "id": "SUP-011",
+    "name": "Proveedor Ficticio 11",
+    "status": "under_review",
+    "synthetic": true
+  },
+  {
+    "category": "logistics",
+    "classification": "CONFIDENTIAL",
+    "id": "SUP-012",
+    "name": "Proveedor Ficticio 12",
+    "status": "active",
+    "synthetic": true
+  }
+]

@@ -1,0 +1,13 @@
+{
+  "id": "SD-001",
+  "name": "Authorized procedure search",
+  "records": {
+    "documents": [
+      "DOC-001",
+      "DOC-002"
+    ],
+    "users": [
+      "USR-006"
+    ]
+  }
+}

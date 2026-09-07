@@ -1,0 +1,24 @@
+{
+  "id": "SD-006",
+  "name": "Uncertain action outcome",
+  "records": {
+    "actions": [
+      "ACT-006"
+    ],
+    "approvals": [
+      "APR-006"
+    ],
+    "audit_events": [
+      "AUD-0021",
+      "AUD-0022",
+      "AUD-0023",
+      "AUD-0024"
+    ],
+    "incidents": [
+      "INC-001"
+    ],
+    "users": [
+      "USR-003"
+    ]
+  }
+}

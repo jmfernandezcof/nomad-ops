@@ -40,17 +40,17 @@ Resolving an item in code, configuration, a prompt or an undocumented workflow d
 
 | ID | Decision required | Source / dependency | Status |
 |---|---|---|---|
-| `OD-001` | Frontend framework | `specs/002-architecture-foundation/components.md` §22 | `OPEN` |
-| `OD-002` | Backend framework and its exact configuration | `specs/002-architecture-foundation/components.md` §22 | `OPEN` |
+| `OD-001` | Frontend framework | `specs/006-application-stack/decision.md`; `docs/adr/0003-application-stack.md` | `RESOLVED` |
+| `OD-002` | Backend framework and its exact configuration | `specs/006-application-stack/decision.md`; `specs/006-application-stack/security-and-contracts.md`; `docs/adr/0003-application-stack.md` | `RESOLVED` |
 | `OD-003` | Authentication implementation and future IdP integration mechanism | `specs/002-architecture-foundation/components.md` §22; `specs/001-system-context/environment-and-identity-constraints.md` §§2–4 | `OPEN` |
-| `OD-004` | Policy-engine implementation | `specs/002-architecture-foundation/components.md` §22 | `OPEN` |
+| `OD-004` | Policy-engine implementation | `specs/005-local-identity-and-authorization/overview.md`; `docs/adr/0002-local-identity-and-policy.md` | `RESOLVED` |
 | `OD-005` | Secret-management technology and credential lifecycle | `specs/002-architecture-foundation/components.md` §22; `specs/001-system-context/trust-boundaries.md` §13 | `OPEN` |
 | `OD-006` | Observability stack and implementation | `specs/002-architecture-foundation/components.md` §22; `specs/002-architecture-foundation/observability.md` | `OPEN` |
 | `OD-007` | Model routing, approved providers and classification eligibility | `specs/002-architecture-foundation/components.md` §22; `specs/001-system-context/data-classification.md` §13 | `OPEN` |
 | `OD-008` | Physical service decomposition | `specs/002-architecture-foundation/components.md` §§21–22 | `OPEN` |
 | `OD-009` | Deployment topology and physical environment isolation | `specs/002-architecture-foundation/components.md` §22; `specs/001-system-context/environment-and-identity-constraints.md` §6 | `OPEN` |
 | `OD-010` | Network layout, service boundaries and outbound-access controls | `specs/002-architecture-foundation/components.md` §22; `specs/001-system-context/trust-boundaries.md` §§14–15 | `OPEN` |
-| `OD-011` | Exact mock-enterprise-service architecture | `specs/002-architecture-foundation/components.md` §22 | `OPEN` |
+| `OD-011` | Exact mock-enterprise-service architecture | `specs/004-simulated-enterprise-services/overview.md`; `docs/adr/0001-simulated-enterprise-service-shape.md` | `RESOLVED` |
 | `OD-012` | Email integration mode: simulated or controlled real mailbox | `specs/001-system-context/systems.md` §10 | `OPEN` |
 | `OD-013` | Cache technology, capability-specific freshness targets, TTLs and synchronization strategy | `specs/002-architecture-foundation/data-responsibilities.md` §§12–13 | `OPEN` |
 | `OD-014` | Workload assumptions, capacity targets, performance objectives and SLOs | `specs/000-product/success-criteria.md`; `specs/002-architecture-foundation/observability.md` | `OPEN` |

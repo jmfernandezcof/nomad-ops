@@ -1,0 +1,66 @@
+[
+  {
+    "id": "DEPT-IT",
+    "name": "Information Technology",
+    "site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ]
+  },
+  {
+    "id": "DEPT-OPS",
+    "name": "Operations",
+    "site_ids": [
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ]
+  },
+  {
+    "id": "DEPT-FIN",
+    "name": "Finance",
+    "site_ids": [
+      "SITE-MAD"
+    ]
+  },
+  {
+    "id": "DEPT-HR",
+    "name": "Human Resources",
+    "site_ids": [
+      "SITE-MAD"
+    ]
+  },
+  {
+    "id": "DEPT-PROC",
+    "name": "Procurement",
+    "site_ids": [
+      "SITE-MAD"
+    ]
+  },
+  {
+    "id": "DEPT-COMP",
+    "name": "Compliance",
+    "site_ids": [
+      "SITE-MAD"
+    ]
+  },
+  {
+    "id": "DEPT-WH",
+    "name": "Warehouse and Logistics",
+    "site_ids": [
+      "SITE-CR",
+      "SITE-VLC"
+    ]
+  },
+  {
+    "id": "DEPT-PKG",
+    "name": "Packaging",
+    "site_ids": [
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ]
+  }
+]

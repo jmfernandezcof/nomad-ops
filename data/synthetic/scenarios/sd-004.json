@@ -1,0 +1,19 @@
+{
+  "id": "SD-004",
+  "name": "Controlled action with approval",
+  "records": {
+    "actions": [
+      "ACT-001"
+    ],
+    "approvals": [
+      "APR-001"
+    ],
+    "incidents": [
+      "INC-001"
+    ],
+    "users": [
+      "USR-001",
+      "USR-003"
+    ]
+  }
+}

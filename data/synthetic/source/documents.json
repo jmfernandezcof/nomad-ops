@@ -1,0 +1,656 @@
+[
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for supplier onboarding procedure, version 2.",
+    "department_id": "DEPT-PROC",
+    "family_id": "PROC-001",
+    "id": "DOC-001",
+    "is_current": true,
+    "published_at": "2026-02-13T08:00:00Z",
+    "status": "current",
+    "title": "Supplier onboarding procedure",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for supplier onboarding procedure, version 1.",
+    "department_id": "DEPT-PROC",
+    "family_id": "PROC-001",
+    "id": "DOC-002",
+    "is_current": false,
+    "published_at": "2026-02-14T08:00:00Z",
+    "status": "superseded",
+    "title": "Supplier onboarding procedure",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for it incident diagnosis runbook, version 2.",
+    "department_id": "DEPT-IT",
+    "family_id": "PROC-002",
+    "id": "DOC-003",
+    "is_current": true,
+    "published_at": "2026-02-15T08:00:00Z",
+    "status": "current",
+    "title": "IT incident diagnosis runbook",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 02, version 1.",
+    "department_id": "DEPT-OPS",
+    "family_id": "PROC-002",
+    "id": "DOC-004",
+    "is_current": false,
+    "published_at": "2026-02-16T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 02",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "CONFIDENTIAL",
+    "content": "Fictional controlled guidance for asteria procedure 03, version 2.",
+    "department_id": "DEPT-FIN",
+    "family_id": "PROC-003",
+    "id": "DOC-005",
+    "is_current": true,
+    "published_at": "2026-02-17T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 03",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "CONFIDENTIAL",
+    "content": "Fictional controlled guidance for asteria procedure 03, version 1.",
+    "department_id": "DEPT-FIN",
+    "family_id": "PROC-003",
+    "id": "DOC-006",
+    "is_current": false,
+    "published_at": "2026-02-18T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 03",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "CONFIDENTIAL",
+    "content": "Fictional controlled guidance for asteria procedure 04, version 2.",
+    "department_id": "DEPT-HR",
+    "family_id": "PROC-004",
+    "id": "DOC-007",
+    "is_current": true,
+    "published_at": "2026-02-19T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 04",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "CONFIDENTIAL",
+    "content": "Fictional controlled guidance for asteria procedure 04, version 1.",
+    "department_id": "DEPT-HR",
+    "family_id": "PROC-004",
+    "id": "DOC-008",
+    "is_current": false,
+    "published_at": "2026-02-20T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 04",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 05, version 2.",
+    "department_id": "DEPT-PROC",
+    "family_id": "PROC-005",
+    "id": "DOC-009",
+    "is_current": true,
+    "published_at": "2026-02-21T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 05",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 05, version 1.",
+    "department_id": "DEPT-PROC",
+    "family_id": "PROC-005",
+    "id": "DOC-010",
+    "is_current": false,
+    "published_at": "2026-02-22T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 05",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 06, version 2.",
+    "department_id": "DEPT-COMP",
+    "family_id": "PROC-006",
+    "id": "DOC-011",
+    "is_current": true,
+    "published_at": "2026-02-23T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 06",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 06, version 1.",
+    "department_id": "DEPT-COMP",
+    "family_id": "PROC-006",
+    "id": "DOC-012",
+    "is_current": false,
+    "published_at": "2026-02-24T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 06",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 07, version 2.",
+    "department_id": "DEPT-WH",
+    "family_id": "PROC-007",
+    "id": "DOC-013",
+    "is_current": true,
+    "published_at": "2026-02-25T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 07",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 07, version 1.",
+    "department_id": "DEPT-WH",
+    "family_id": "PROC-007",
+    "id": "DOC-014",
+    "is_current": false,
+    "published_at": "2026-02-26T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 07",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 08, version 2.",
+    "department_id": "DEPT-PKG",
+    "family_id": "PROC-008",
+    "id": "DOC-015",
+    "is_current": true,
+    "published_at": "2026-02-27T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 08",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 08, version 1.",
+    "department_id": "DEPT-PKG",
+    "family_id": "PROC-008",
+    "id": "DOC-016",
+    "is_current": false,
+    "published_at": "2026-02-28T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 08",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 09, version 2.",
+    "department_id": "DEPT-IT",
+    "family_id": "PROC-009",
+    "id": "DOC-017",
+    "is_current": true,
+    "published_at": "2026-03-01T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 09",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 09, version 1.",
+    "department_id": "DEPT-IT",
+    "family_id": "PROC-009",
+    "id": "DOC-018",
+    "is_current": false,
+    "published_at": "2026-03-02T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 09",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 10, version 2.",
+    "department_id": "DEPT-OPS",
+    "family_id": "PROC-010",
+    "id": "DOC-019",
+    "is_current": true,
+    "published_at": "2026-03-03T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 10",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 10, version 1.",
+    "department_id": "DEPT-OPS",
+    "family_id": "PROC-010",
+    "id": "DOC-020",
+    "is_current": false,
+    "published_at": "2026-03-04T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 10",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "CONFIDENTIAL",
+    "content": "Fictional controlled guidance for asteria procedure 11, version 2.",
+    "department_id": "DEPT-FIN",
+    "family_id": "PROC-011",
+    "id": "DOC-021",
+    "is_current": true,
+    "published_at": "2026-03-05T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 11",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "CONFIDENTIAL",
+    "content": "Fictional controlled guidance for asteria procedure 11, version 1.",
+    "department_id": "DEPT-FIN",
+    "family_id": "PROC-011",
+    "id": "DOC-022",
+    "is_current": false,
+    "published_at": "2026-03-06T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 11",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "CONFIDENTIAL",
+    "content": "Fictional controlled guidance for asteria procedure 12, version 2.",
+    "department_id": "DEPT-HR",
+    "family_id": "PROC-012",
+    "id": "DOC-023",
+    "is_current": true,
+    "published_at": "2026-03-07T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 12",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "CONFIDENTIAL",
+    "content": "Fictional controlled guidance for asteria procedure 12, version 1.",
+    "department_id": "DEPT-HR",
+    "family_id": "PROC-012",
+    "id": "DOC-024",
+    "is_current": false,
+    "published_at": "2026-03-08T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 12",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 13, version 2.",
+    "department_id": "DEPT-PROC",
+    "family_id": "PROC-013",
+    "id": "DOC-025",
+    "is_current": true,
+    "published_at": "2026-03-09T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 13",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 13, version 1.",
+    "department_id": "DEPT-PROC",
+    "family_id": "PROC-013",
+    "id": "DOC-026",
+    "is_current": false,
+    "published_at": "2026-03-10T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 13",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 14, version 2.",
+    "department_id": "DEPT-COMP",
+    "family_id": "PROC-014",
+    "id": "DOC-027",
+    "is_current": true,
+    "published_at": "2026-03-11T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 14",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 14, version 1.",
+    "department_id": "DEPT-COMP",
+    "family_id": "PROC-014",
+    "id": "DOC-028",
+    "is_current": false,
+    "published_at": "2026-03-12T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 14",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 15, version 2.",
+    "department_id": "DEPT-WH",
+    "family_id": "PROC-015",
+    "id": "DOC-029",
+    "is_current": true,
+    "published_at": "2026-03-13T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 15",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 15, version 1.",
+    "department_id": "DEPT-WH",
+    "family_id": "PROC-015",
+    "id": "DOC-030",
+    "is_current": false,
+    "published_at": "2026-03-14T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 15",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 16, version 2.",
+    "department_id": "DEPT-PKG",
+    "family_id": "PROC-016",
+    "id": "DOC-031",
+    "is_current": true,
+    "published_at": "2026-03-15T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 16",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 16, version 1.",
+    "department_id": "DEPT-PKG",
+    "family_id": "PROC-016",
+    "id": "DOC-032",
+    "is_current": false,
+    "published_at": "2026-03-16T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 16",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 17, version 2.",
+    "department_id": "DEPT-IT",
+    "family_id": "PROC-017",
+    "id": "DOC-033",
+    "is_current": true,
+    "published_at": "2026-03-17T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 17",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 17, version 1.",
+    "department_id": "DEPT-IT",
+    "family_id": "PROC-017",
+    "id": "DOC-034",
+    "is_current": false,
+    "published_at": "2026-03-18T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 17",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 18, version 2.",
+    "department_id": "DEPT-OPS",
+    "family_id": "PROC-018",
+    "id": "DOC-035",
+    "is_current": true,
+    "published_at": "2026-03-19T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 18",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD",
+      "SITE-TOL",
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "classification": "INTERNAL",
+    "content": "Fictional controlled guidance for asteria procedure 18, version 1.",
+    "department_id": "DEPT-OPS",
+    "family_id": "PROC-018",
+    "id": "DOC-036",
+    "is_current": false,
+    "published_at": "2026-03-20T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 18",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "CONFIDENTIAL",
+    "content": "Fictional controlled guidance for asteria procedure 19, version 2.",
+    "department_id": "DEPT-FIN",
+    "family_id": "PROC-019",
+    "id": "DOC-037",
+    "is_current": true,
+    "published_at": "2026-03-21T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 19",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "CONFIDENTIAL",
+    "content": "Fictional controlled guidance for asteria procedure 19, version 1.",
+    "department_id": "DEPT-FIN",
+    "family_id": "PROC-019",
+    "id": "DOC-038",
+    "is_current": false,
+    "published_at": "2026-03-22T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 19",
+    "version": 1
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "CONFIDENTIAL",
+    "content": "Fictional controlled guidance for asteria procedure 20, version 2.",
+    "department_id": "DEPT-HR",
+    "family_id": "PROC-020",
+    "id": "DOC-039",
+    "is_current": true,
+    "published_at": "2026-03-23T08:00:00Z",
+    "status": "current",
+    "title": "Asteria procedure 20",
+    "version": 2
+  },
+  {
+    "allowed_site_ids": [
+      "SITE-MAD"
+    ],
+    "classification": "CONFIDENTIAL",
+    "content": "Fictional controlled guidance for asteria procedure 20, version 1.",
+    "department_id": "DEPT-HR",
+    "family_id": "PROC-020",
+    "id": "DOC-040",
+    "is_current": false,
+    "published_at": "2026-03-24T08:00:00Z",
+    "status": "superseded",
+    "title": "Asteria procedure 20",
+    "version": 1
+  }
+]

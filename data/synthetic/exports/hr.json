@@ -1,0 +1,924 @@
+{
+  "departments": [
+    {
+      "id": "DEPT-IT",
+      "name": "Information Technology",
+      "site_ids": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ]
+    },
+    {
+      "id": "DEPT-OPS",
+      "name": "Operations",
+      "site_ids": [
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ]
+    },
+    {
+      "id": "DEPT-FIN",
+      "name": "Finance",
+      "site_ids": [
+        "SITE-MAD"
+      ]
+    },
+    {
+      "id": "DEPT-HR",
+      "name": "Human Resources",
+      "site_ids": [
+        "SITE-MAD"
+      ]
+    },
+    {
+      "id": "DEPT-PROC",
+      "name": "Procurement",
+      "site_ids": [
+        "SITE-MAD"
+      ]
+    },
+    {
+      "id": "DEPT-COMP",
+      "name": "Compliance",
+      "site_ids": [
+        "SITE-MAD"
+      ]
+    },
+    {
+      "id": "DEPT-WH",
+      "name": "Warehouse and Logistics",
+      "site_ids": [
+        "SITE-CR",
+        "SITE-VLC"
+      ]
+    },
+    {
+      "id": "DEPT-PKG",
+      "name": "Packaging",
+      "site_ids": [
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ]
+    }
+  ],
+  "sites": [
+    {
+      "city": "Madrid",
+      "id": "SITE-MAD",
+      "kind": "headquarters",
+      "name": "Madrid HQ"
+    },
+    {
+      "city": "Toledo",
+      "id": "SITE-TOL",
+      "kind": "plant",
+      "name": "Plant 1 — Toledo"
+    },
+    {
+      "city": "Ciudad Real",
+      "id": "SITE-CR",
+      "kind": "plant",
+      "name": "Plant 2 — Ciudad Real"
+    },
+    {
+      "city": "Valencia",
+      "id": "SITE-VLC",
+      "kind": "plant",
+      "name": "Plant 3 — Valencia"
+    }
+  ],
+  "users": [
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-OPS",
+      "display_name": "Carlos Romero",
+      "email": "user001@asteria.example",
+      "id": "USR-001",
+      "primary_site_id": "SITE-CR",
+      "role": "plant_operations_manager",
+      "site_scope": [
+        "SITE-CR"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-FIN",
+      "display_name": "Laura Martín",
+      "email": "user002@asteria.example",
+      "id": "USR-002",
+      "primary_site_id": "SITE-MAD",
+      "role": "department_manager",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-IT",
+      "display_name": "Daniel Ortega",
+      "email": "user003@asteria.example",
+      "id": "USR-003",
+      "primary_site_id": "SITE-MAD",
+      "role": "it_operator",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-COMP",
+      "display_name": "Elena Santos",
+      "email": "user004@asteria.example",
+      "id": "USR-004",
+      "primary_site_id": "SITE-MAD",
+      "role": "compliance_governance",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-IT",
+      "display_name": "Miguel Navarro",
+      "email": "user005@asteria.example",
+      "id": "USR-005",
+      "primary_site_id": "SITE-MAD",
+      "role": "nomad_ops_admin",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-PROC",
+      "display_name": "Lucía Vega",
+      "email": "user006@asteria.example",
+      "id": "USR-006",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-WH",
+      "display_name": "Irene Ruiz-07",
+      "email": "user007@asteria.example",
+      "id": "USR-007",
+      "primary_site_id": "SITE-CR",
+      "role": "compliance_governance",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-PKG",
+      "display_name": "Diego Ruiz-08",
+      "email": "user008@asteria.example",
+      "id": "USR-008",
+      "primary_site_id": "SITE-CR",
+      "role": "nomad_ops_admin",
+      "site_scope": [
+        "SITE-CR"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-IT",
+      "display_name": "Nuria Ruiz-09",
+      "email": "user009@asteria.example",
+      "id": "USR-009",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-OPS",
+      "display_name": "Ana Moreno-10",
+      "email": "user010@asteria.example",
+      "id": "USR-010",
+      "primary_site_id": "SITE-TOL",
+      "role": "employee",
+      "site_scope": [
+        "SITE-TOL"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-FIN",
+      "display_name": "Pablo Moreno-11",
+      "email": "user011@asteria.example",
+      "id": "USR-011",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-HR",
+      "display_name": "Marta Moreno-12",
+      "email": "user012@asteria.example",
+      "id": "USR-012",
+      "primary_site_id": "SITE-MAD",
+      "role": "it_operator",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-PROC",
+      "display_name": "Javier Moreno-13",
+      "email": "user013@asteria.example",
+      "id": "USR-013",
+      "primary_site_id": "SITE-MAD",
+      "role": "plant_operations_manager",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-COMP",
+      "display_name": "Sara Moreno-14",
+      "email": "user014@asteria.example",
+      "id": "USR-014",
+      "primary_site_id": "SITE-MAD",
+      "role": "department_manager",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-WH",
+      "display_name": "Álvaro Moreno-15",
+      "email": "user015@asteria.example",
+      "id": "USR-015",
+      "primary_site_id": "SITE-CR",
+      "role": "compliance_governance",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-PKG",
+      "display_name": "Irene Moreno-16",
+      "email": "user016@asteria.example",
+      "id": "USR-016",
+      "primary_site_id": "SITE-TOL",
+      "role": "nomad_ops_admin",
+      "site_scope": [
+        "SITE-TOL"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-IT",
+      "display_name": "Diego Moreno-17",
+      "email": "user017@asteria.example",
+      "id": "USR-017",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-OPS",
+      "display_name": "Nuria Moreno-18",
+      "email": "user018@asteria.example",
+      "id": "USR-018",
+      "primary_site_id": "SITE-VLC",
+      "role": "employee",
+      "site_scope": [
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-FIN",
+      "display_name": "Ana Gil-19",
+      "email": "user019@asteria.example",
+      "id": "USR-019",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-HR",
+      "display_name": "Pablo Gil-20",
+      "email": "user020@asteria.example",
+      "id": "USR-020",
+      "primary_site_id": "SITE-MAD",
+      "role": "it_operator",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-PROC",
+      "display_name": "Marta Gil-21",
+      "email": "user021@asteria.example",
+      "id": "USR-021",
+      "primary_site_id": "SITE-MAD",
+      "role": "plant_operations_manager",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-COMP",
+      "display_name": "Javier Gil-22",
+      "email": "user022@asteria.example",
+      "id": "USR-022",
+      "primary_site_id": "SITE-MAD",
+      "role": "department_manager",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-WH",
+      "display_name": "Sara Gil-23",
+      "email": "user023@asteria.example",
+      "id": "USR-023",
+      "primary_site_id": "SITE-CR",
+      "role": "compliance_governance",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-PKG",
+      "display_name": "Álvaro Gil-24",
+      "email": "user024@asteria.example",
+      "id": "USR-024",
+      "primary_site_id": "SITE-VLC",
+      "role": "nomad_ops_admin",
+      "site_scope": [
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-IT",
+      "display_name": "Irene Gil-25",
+      "email": "user025@asteria.example",
+      "id": "USR-025",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-OPS",
+      "display_name": "Diego Gil-26",
+      "email": "user026@asteria.example",
+      "id": "USR-026",
+      "primary_site_id": "SITE-CR",
+      "role": "employee",
+      "site_scope": [
+        "SITE-CR"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-FIN",
+      "display_name": "Nuria Gil-27",
+      "email": "user027@asteria.example",
+      "id": "USR-027",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-HR",
+      "display_name": "Ana Iglesias-28",
+      "email": "user028@asteria.example",
+      "id": "USR-028",
+      "primary_site_id": "SITE-MAD",
+      "role": "it_operator",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-PROC",
+      "display_name": "Pablo Iglesias-29",
+      "email": "user029@asteria.example",
+      "id": "USR-029",
+      "primary_site_id": "SITE-MAD",
+      "role": "plant_operations_manager",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-COMP",
+      "display_name": "Marta Iglesias-30",
+      "email": "user030@asteria.example",
+      "id": "USR-030",
+      "primary_site_id": "SITE-MAD",
+      "role": "department_manager",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-WH",
+      "display_name": "Javier Iglesias-31",
+      "email": "user031@asteria.example",
+      "id": "USR-031",
+      "primary_site_id": "SITE-CR",
+      "role": "compliance_governance",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-PKG",
+      "display_name": "Sara Iglesias-32",
+      "email": "user032@asteria.example",
+      "id": "USR-032",
+      "primary_site_id": "SITE-CR",
+      "role": "nomad_ops_admin",
+      "site_scope": [
+        "SITE-CR"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-IT",
+      "display_name": "Álvaro Iglesias-33",
+      "email": "user033@asteria.example",
+      "id": "USR-033",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-OPS",
+      "display_name": "Irene Iglesias-34",
+      "email": "user034@asteria.example",
+      "id": "USR-034",
+      "primary_site_id": "SITE-TOL",
+      "role": "employee",
+      "site_scope": [
+        "SITE-TOL"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-FIN",
+      "display_name": "Diego Iglesias-35",
+      "email": "user035@asteria.example",
+      "id": "USR-035",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-HR",
+      "display_name": "Nuria Iglesias-36",
+      "email": "user036@asteria.example",
+      "id": "USR-036",
+      "primary_site_id": "SITE-MAD",
+      "role": "it_operator",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-PROC",
+      "display_name": "Ana Molina-37",
+      "email": "user037@asteria.example",
+      "id": "USR-037",
+      "primary_site_id": "SITE-MAD",
+      "role": "plant_operations_manager",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-COMP",
+      "display_name": "Pablo Molina-38",
+      "email": "user038@asteria.example",
+      "id": "USR-038",
+      "primary_site_id": "SITE-MAD",
+      "role": "department_manager",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-WH",
+      "display_name": "Marta Molina-39",
+      "email": "user039@asteria.example",
+      "id": "USR-039",
+      "primary_site_id": "SITE-CR",
+      "role": "compliance_governance",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-PKG",
+      "display_name": "Javier Molina-40",
+      "email": "user040@asteria.example",
+      "id": "USR-040",
+      "primary_site_id": "SITE-TOL",
+      "role": "nomad_ops_admin",
+      "site_scope": [
+        "SITE-TOL"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-IT",
+      "display_name": "Sara Molina-41",
+      "email": "user041@asteria.example",
+      "id": "USR-041",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-OPS",
+      "display_name": "Álvaro Molina-42",
+      "email": "user042@asteria.example",
+      "id": "USR-042",
+      "primary_site_id": "SITE-VLC",
+      "role": "employee",
+      "site_scope": [
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-FIN",
+      "display_name": "Irene Molina-43",
+      "email": "user043@asteria.example",
+      "id": "USR-043",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-HR",
+      "display_name": "Diego Molina-44",
+      "email": "user044@asteria.example",
+      "id": "USR-044",
+      "primary_site_id": "SITE-MAD",
+      "role": "it_operator",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-PROC",
+      "display_name": "Nuria Molina-45",
+      "email": "user045@asteria.example",
+      "id": "USR-045",
+      "primary_site_id": "SITE-MAD",
+      "role": "plant_operations_manager",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-COMP",
+      "display_name": "Ana Cano-46",
+      "email": "user046@asteria.example",
+      "id": "USR-046",
+      "primary_site_id": "SITE-MAD",
+      "role": "department_manager",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-WH",
+      "display_name": "Pablo Cano-47",
+      "email": "user047@asteria.example",
+      "id": "USR-047",
+      "primary_site_id": "SITE-CR",
+      "role": "compliance_governance",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-PKG",
+      "display_name": "Marta Cano-48",
+      "email": "user048@asteria.example",
+      "id": "USR-048",
+      "primary_site_id": "SITE-VLC",
+      "role": "nomad_ops_admin",
+      "site_scope": [
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-IT",
+      "display_name": "Javier Cano-49",
+      "email": "user049@asteria.example",
+      "id": "USR-049",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-OPS",
+      "display_name": "Sara Cano-50",
+      "email": "user050@asteria.example",
+      "id": "USR-050",
+      "primary_site_id": "SITE-CR",
+      "role": "employee",
+      "site_scope": [
+        "SITE-CR"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-FIN",
+      "display_name": "Álvaro Cano-51",
+      "email": "user051@asteria.example",
+      "id": "USR-051",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-HR",
+      "display_name": "Irene Cano-52",
+      "email": "user052@asteria.example",
+      "id": "USR-052",
+      "primary_site_id": "SITE-MAD",
+      "role": "it_operator",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-PROC",
+      "display_name": "Diego Cano-53",
+      "email": "user053@asteria.example",
+      "id": "USR-053",
+      "primary_site_id": "SITE-MAD",
+      "role": "plant_operations_manager",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-COMP",
+      "display_name": "Nuria Cano-54",
+      "email": "user054@asteria.example",
+      "id": "USR-054",
+      "primary_site_id": "SITE-MAD",
+      "role": "department_manager",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-WH",
+      "display_name": "Ana Suárez-55",
+      "email": "user055@asteria.example",
+      "id": "USR-055",
+      "primary_site_id": "SITE-CR",
+      "role": "compliance_governance",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-PKG",
+      "display_name": "Pablo Suárez-56",
+      "email": "user056@asteria.example",
+      "id": "USR-056",
+      "primary_site_id": "SITE-CR",
+      "role": "nomad_ops_admin",
+      "site_scope": [
+        "SITE-CR"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-IT",
+      "display_name": "Marta Suárez-57",
+      "email": "user057@asteria.example",
+      "id": "USR-057",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-OPS",
+      "display_name": "Javier Suárez-58",
+      "email": "user058@asteria.example",
+      "id": "USR-058",
+      "primary_site_id": "SITE-TOL",
+      "role": "employee",
+      "site_scope": [
+        "SITE-TOL"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-FIN",
+      "display_name": "Sara Suárez-59",
+      "email": "user059@asteria.example",
+      "id": "USR-059",
+      "primary_site_id": "SITE-MAD",
+      "role": "employee",
+      "site_scope": [
+        "SITE-MAD"
+      ],
+      "synthetic": true
+    },
+    {
+      "classification": "CONFIDENTIAL",
+      "department_id": "DEPT-HR",
+      "display_name": "Álvaro Suárez-60",
+      "email": "user060@asteria.example",
+      "id": "USR-060",
+      "primary_site_id": "SITE-MAD",
+      "role": "it_operator",
+      "site_scope": [
+        "SITE-MAD",
+        "SITE-TOL",
+        "SITE-CR",
+        "SITE-VLC"
+      ],
+      "synthetic": true
+    }
+  ]
+}

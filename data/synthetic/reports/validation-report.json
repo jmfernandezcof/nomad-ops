@@ -1,0 +1,24 @@
+{
+  "dataset": "Asteria Manufacturing Group synthetic demonstration data",
+  "deterministic_regeneration": true,
+  "errors": [],
+  "fingerprint_sha256": "abd68955f8b7fe5b6ed07f142b51b7bb9f258fecbb9254325c5b079391a9ca9f",
+  "mandatory_checks": "PASSED",
+  "record_counts": {
+    "actions": 12,
+    "alerts": 80,
+    "approvals": 12,
+    "assets": 24,
+    "audit_events": 48,
+    "departments": 8,
+    "documents": 40,
+    "incidents": 60,
+    "scenarios": 6,
+    "sites": 4,
+    "suppliers": 12,
+    "users": 60
+  },
+  "seed": 20260906,
+  "synthetic_data_only": true,
+  "version": "1.0.0"
+}

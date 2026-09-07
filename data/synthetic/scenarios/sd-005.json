@@ -1,0 +1,21 @@
+{
+  "id": "SD-005",
+  "name": "Compliance review",
+  "records": {
+    "actions": [
+      "ACT-001"
+    ],
+    "approvals": [
+      "APR-001"
+    ],
+    "audit_events": [
+      "AUD-0001",
+      "AUD-0002",
+      "AUD-0003",
+      "AUD-0004"
+    ],
+    "users": [
+      "USR-004"
+    ]
+  }
+}

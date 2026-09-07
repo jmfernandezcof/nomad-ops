@@ -1,0 +1,26 @@
+[
+  {
+    "city": "Madrid",
+    "id": "SITE-MAD",
+    "kind": "headquarters",
+    "name": "Madrid HQ"
+  },
+  {
+    "city": "Toledo",
+    "id": "SITE-TOL",
+    "kind": "plant",
+    "name": "Plant 1 — Toledo"
+  },
+  {
+    "city": "Ciudad Real",
+    "id": "SITE-CR",
+    "kind": "plant",
+    "name": "Plant 2 — Ciudad Real"
+  },
+  {
+    "city": "Valencia",
+    "id": "SITE-VLC",
+    "kind": "plant",
+    "name": "Plant 3 — Valencia"
+  }
+]

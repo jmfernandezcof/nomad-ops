@@ -1,0 +1,21 @@
+{
+  "id": "SD-003",
+  "name": "Plant access boundary",
+  "records": {
+    "alerts": [
+      "ALT-003",
+      "ALT-004"
+    ],
+    "assets": [
+      "AST-003",
+      "AST-004"
+    ],
+    "sites": [
+      "SITE-CR",
+      "SITE-VLC"
+    ],
+    "users": [
+      "USR-001"
+    ]
+  }
+}
